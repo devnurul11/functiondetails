@@ -18,6 +18,9 @@
 
 // console.log(factorialRecursive(5));
 
+// factorial = 6!= 6*5*4*3*2*1
+// 1! = 1
+
 function recursion (num){
 
     for (let i = 0; i <= num; i++) {
@@ -29,6 +32,5 @@ function recursion (num){
             }
     }
 }
-
 var result = recursion(6);
 console.log(result);
